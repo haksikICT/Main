@@ -4,12 +4,15 @@
     font-weight: 900;
     font-family: Montserrat, sans-serif;
     line-height: 1;
+    letter-spacing: -1px;
 }
 
 .title2 {
     color: #272830;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 700;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -1px;
 
 }
 
@@ -89,6 +92,8 @@ section.new .newcon .line hr {
 
 section.new .newcon .nt h1 {
     margin-bottom: 10px;
+    /* font-family: 'Montserrat', sans-serif; */
+    
 
 }
 
@@ -111,6 +116,16 @@ section.new ul li .newtext {
 section.new ul li .medium {
     font-size: 17px;
     line-height: 1.5;
+}
+section.new .newcon ul li{
+    overflow: hidden;
+}
+
+section.new .newcon ul li img{
+    transition: all 0.1s linear;
+}
+section.new .newcon ul li img:hover{
+    transform: scale(1.03);
 }
 
 
@@ -267,6 +282,16 @@ section.ser ul {
     display: flex;
     justify-content: space-between;
 }
+section.ser .sercon ul li{
+    overflow: hidden;
+} 
+
+section.ser .sercon ul li img{
+    transition: all 0.1s linear;
+}
+section.ser .sercon ul li img:hover{
+    transform: scale(1.03);
+}
 
 section.ser ul li .sertext {
     box-sizing: border-box;
@@ -293,7 +318,7 @@ section.ser ul li .medium {
 
 section.info {
     width: 100%;
-    height: 617px;
+    height: 727px;
     background: #f7f7f7;
     padding: 60px 0px;
 }
@@ -378,7 +403,7 @@ section.info .infocon ul li .detail {
 }
 
 section.info .infocon ul li .detail2 {
-    width: 292.33px;
+    width: 292.33px;    
     height: 329px;
     border-top: 1px solid #e6e6e6;
 
@@ -397,10 +422,12 @@ section.info .infocon ul li .detail2 .daytime {
 
 section.info .infocon ul li .detail2 .daytime .day {
     height: 29px;
-    font-weight: 400;
+   
     font-size: 20px;
     letter-spacing: -1px;
     line-height: 29px;
+    
+    font-weight: 900;
 
 
 
@@ -429,7 +456,7 @@ section.info .infocon ul li .detail2 .timeline {
 
 section.info .infocon ul li .detail2 .timeline div {
     margin-bottom: 40px;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 18px;
     position: relative;
     letter-spacing: -1px;
@@ -652,6 +679,7 @@ section.edit .editcon .editimg a {
     display: block;
     width: 215px;
     height: 301px;
+    
 
     color: black;
     text-decoration: none;
@@ -661,13 +689,20 @@ section.edit .editcon .editimg a {
     font-size: 15px;
 }
 
+
+
 section.edit .editcon .editimg a img {
     border-radius: 50%;
+    
+    transition: all 0.1s linear;
+}
+section.edit .editcon .editimg a img:hover {
+    transform: scale(1.02);
 }
 
 section.edit .editcon .editimg .medium {
     line-height: 0.5;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 17px;
 }
 
@@ -685,6 +720,61 @@ section.edit .editcon .btnedit {
 }
 
 /*side*/
-section.side{
+.sidecon a{
+    display :block;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    text-decoration: none;
+    background: #DFDFDF7A;
+    color: #7b7b7b;
+    text-align: center;
+    font-size: 13px;
+    margin: 10px; 
+    display: flex;
+    position: relative;
+   
+
+}
+
+
+.sidecon .txt{
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.scroll {
+    width: 100%;
+    position: relative;
+    height: 3000px;   
+   
+}
+
+ .sidecon{  
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    margin-left: 1800px;
+    
+    z-index: 999;
     
 }
+
+.scroll .wrap{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+

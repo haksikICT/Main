@@ -440,6 +440,7 @@ section.info .infocon ul li .detail2 .daytime .time {
     letter-spacing: -1px;
     font-weight: 800;
     line-height: 50px;
+    margin: 
 
 }
 
@@ -448,9 +449,9 @@ section.info .infocon ul li .detail2 .timeline {
     height: 160px;
     box-sizing: border-box;
     padding-left: 20px;
-
     overflow: auto;
     position: relative;
+    margin-top: 50px;
 
 }
 
@@ -503,7 +504,7 @@ section.info .infocon ul li .detail2 .timeline #gg::after{
 section.info .infocon ul li .detail2 .infobtn {
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 10px;
 
 
 }

@@ -104,18 +104,21 @@ section.new ul {
 
 section.new ul li .newtext {
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 14px;
+    letter-spacing: -1px;
     width: 235px;
     height: 86px;
     margin: 0 10 20;
+    font-weight: 500;
 
     text-align: center;
     padding: 20px 0px;
 }
 
 section.new ul li .medium {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.5;
+    
 }
 section.new .newcon ul li{
     overflow: hidden;
@@ -132,7 +135,7 @@ section.new .newcon ul li img:hover{
 /*promotion*/
 section.pro {
     width: 100%;
-    height: 407px;
+    height: 500px;
     background: #f7f7f7;
     padding: 60px 0px;
 }
@@ -440,6 +443,7 @@ section.info .infocon ul li .detail2 .daytime .time {
     letter-spacing: -1px;
     font-weight: 800;
     line-height: 50px;
+    margin: 
 
 }
 
@@ -448,9 +452,9 @@ section.info .infocon ul li .detail2 .timeline {
     height: 160px;
     box-sizing: border-box;
     padding-left: 20px;
-
     overflow: auto;
     position: relative;
+    margin-top: 50px;
 
 }
 
@@ -503,7 +507,7 @@ section.info .infocon ul li .detail2 .timeline #gg::after{
 section.info .infocon ul li .detail2 .infobtn {
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 10px;
 
 
 }
@@ -581,6 +585,7 @@ section.info .infocon ul li .tick div {
     line-height: 81px;
     border-bottom: 0.1px solid #e6e6e6;
     border-right: 0.05px solid #e6e6e6;
+    font-size: 15px;
 
 
 }
@@ -751,7 +756,7 @@ section.edit .editcon .btnedit {
 .scroll {
     width: 100%;
     position: relative;
-    height: 3000px;   
+    height: 2800px;   
    
 }
 

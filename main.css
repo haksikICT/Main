@@ -474,6 +474,7 @@ section.info .infocon ul li .detail2 .timeline div::before {
     border: 1px solid #929292;
     border-radius: 50%;
     color: #929292;
+    background-color: #929292;
 
     position: absolute;
     top: 22%;
@@ -760,12 +761,13 @@ section.edit .editcon .btnedit {
    
 }
 
+
  .sidecon{  
     position: sticky;
     top: 0;
-    left: 0;
     padding-top: 100px;
-    margin-left: 1800px;
+    padding-left: 75%;
+
     
     z-index: 999;
     
@@ -778,6 +780,45 @@ section.edit .editcon .btnedit {
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media(max-width:2030px){
+
+    .sidecon{  
+        padding-left: 80%;
+          
+    }
+}
+@media(max-width:1700px){
+
+    .sidecon{  
+        padding-left: 85%;
+          
+    }
+}
+@media(max-width:1500px){
+    .sidecon{  
+        padding-left: 1250px;
+          
+    }
+    
+}
+
+
+@media(max-width:1500px){
+    section.me .me1 {
+        height: 400px;
+    }
+    section.me ul li img {
+        width: 1500px;
+        height: 400px;
+    }
+    section.me .me1 .met{
+        width: 700px;
+        
+    
+    }
+}
+
 
 
 

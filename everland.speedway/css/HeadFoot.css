@@ -294,14 +294,18 @@ header .supercon .bottom .hidden .hiddencon ul{
 
 header .supercon .bottom .hidden .hiddencon ul li{
     width : 192px;
-    height: 260px;    
+    height: 310px;    
    
     padding: 20px 30px ;
     border-right: 1px solid #cacaca;
+    z-index: 999;
     
 }
 header .supercon .bottom .hidden .hiddencon ul li div{
     margin-bottom: 12px;
     font-size: 15px;
     letter-spacing: -1px;
+}
+header .supercon .bottom .bottomcon ul li:nth-child(4) a {
+    color: white;
 }

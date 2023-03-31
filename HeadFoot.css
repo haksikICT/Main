@@ -228,8 +228,18 @@ header .supercon .bottom .bottomcon{
    
     position: relative;
 }
+
+header .supercon .bottom .bottomcon ul img{
+    width: 24px;
+    
+    position: absolute;
+    left :104%;
+    top: 20%;
+}
+
 header .supercon .bottom .bottomcon ul{
     display: flex;
+    position: relative;
 }
 header .supercon .bottom .bottomcon ul li{
     width: 192px;
@@ -309,7 +319,7 @@ header .supercon .bottom .hidden .hiddencon ul li div{
 /* footer-top style */
 section.footer {
     width: 100%;
-    height: 190px;
+    height: 180px;
     background: url(../img/footer_background.gif) repeat-x;
 }
 

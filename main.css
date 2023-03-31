@@ -126,9 +126,12 @@ section.new .newcon ul li{
 
 section.new .newcon ul li img{
     transition: all 0.1s linear;
+    
 }
+
 section.new .newcon ul li img:hover{
     transform: scale(1.03);
+    
 }
 
 
@@ -237,13 +240,17 @@ section.pro .btncon .btn {
     text-align: center;
     letter-spacing: -1px;
     line-height: 40px;
+    font-size: 15px;
+    
+    
 
 }
 
 section.pro .btncon .btn strong {
     font-weight: bold;
-
+  
 }
+
 
 /*service*/
 
@@ -311,9 +318,6 @@ section.ser ul li .medium {
     font-size: 17px;
     line-height: 1.5;
 }
-
-
-
 
 
 
@@ -524,6 +528,7 @@ section.info .infocon ul li .detail2 .infobtn .conc {
     line-height: 38px;
     font-size: 15px;
     letter-spacing: -1px;
+    font-size: 15px;
 
 }
 
@@ -722,8 +727,14 @@ section.edit .editcon .btnedit {
     text-align: center;
     letter-spacing: -1px;
     line-height: 50px;
+    font-size: 15px;
 
 }
+section.edit .editcon .btnedit strong {
+    font-weight: bold;
+  
+}
+
 
 /*side*/
 .sidecon a{
@@ -772,6 +783,7 @@ section.edit .editcon .btnedit {
     z-index: 999;
     
 }
+
 
 .scroll .wrap{
     width: 100%;

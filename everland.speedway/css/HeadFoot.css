@@ -45,8 +45,8 @@ header .supercon .top .topcon .toplogo {
 } */
 
 header .supercon .top .topcon a .topfirst {
-    border-bottom: none;
-    background: white;
+    border-bottom: 1px solid #b7b7b7;
+    
 }
 header .supercon .top .topcon a .top2{
     border-bottom: 1px solid #b7b7b7;
@@ -55,7 +55,9 @@ header .supercon .top .topcon a .top3{
     border-bottom: 1px solid #b7b7b7;
 }
 header .supercon .top .topcon a .top4{
-    border-bottom: 1px solid #b7b7b7;
+    border-bottom: none;
+    background: white;
+    
 }
 header .supercon .top .topcon a .top5{
     border-bottom: 1px solid #b7b7b7;

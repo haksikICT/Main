@@ -40,11 +40,12 @@ header .supercon .top .topcon .toplogo {
 } */
 
 header .supercon .top .topcon a .topfirst {
-    border-bottom: none;
-    background: white;
+    border-bottom: 1px solid #b7b7b7;
 }
 header .supercon .top .topcon a .top2{
-    border-bottom: 1px solid #b7b7b7;
+    
+    border-bottom: none;
+    background: white;
 }
 header .supercon .top .topcon a .top3{
     border-bottom: 1px solid #b7b7b7;
@@ -134,7 +135,7 @@ header .supercon .topcon .purple{
 header .supercon .mid{
     width: 100%;
     background: white;
-    border-bottom: 2px solid #FF7F02;
+    border-bottom: 2px solid #18A5FF;
 }
 
 header .supercon .midcon {
@@ -232,7 +233,7 @@ header .supercon .bottom .bottomcon ul{
     display: flex;
 }
 header .supercon .bottom .bottomcon ul li{
-    width: 192px;
+    width: 240px;
     height: 43px;
     /* background-color: skyblue; */
     text-align: center;
@@ -243,7 +244,7 @@ header .supercon .bottom .bottomcon ul li{
     
 }
 header .supercon .bottom .bottomcon ul li:hover{
-    background: #FF7F02;
+    background: #18A5FF;
     color: white;
 }
 
@@ -277,12 +278,24 @@ header .supercon .bottom .hidden .hiddencon {
     background: white;
     /* border: 1px solid #cacaca; */
 }
+header .supercon .bottom .hidden .hiddencon ul .appbox{
+    position: relative;
+    
+}
+header .supercon .bottom .hidden .hiddencon ul li .app{
+   
+    position: absolute;
+    top: 72.0%;
+    left: 38%;
+
+
+}
 header .supercon .bottom .hidden .hiddencon ul{
     display: flex;
 }
 
 header .supercon .bottom .hidden .hiddencon ul li{
-    width : 192px;
+    width : 240px;
     height: 300px;    
     box-sizing: border-box;
    
@@ -291,7 +304,7 @@ header .supercon .bottom .hidden .hiddencon ul li{
     border-bottom: 1px solid #cacaca;
     
 }
-header .supercon .bottom .hidden .hiddencon ul .hf{
+header .supercon .bottom .hidden .hiddencon ul .cbfirst{
     border-left: 1px solid #cacaca
     
 }
@@ -306,11 +319,11 @@ header .supercon .bottom .hidden .hiddencon ul li div{
 
 /*FOOT===============================*/
 
-/* footer-top style */
+/* footer style */
 section.footer {
     width: 100%;
     height: 190px;
-    background: url(../img/footer_background.gif) repeat-x;
+    background: url(./img/footer_background.gif) repeat-x;
 }
 
 section.footer .footer-top {
@@ -369,81 +382,5 @@ section.footer .footer-top .tempbox a {
     text-decoration: none;
     font-size: 12px;
 }
-/* end footer-top */
-
-/* footer-bottom style */
-
-section.footer .footer-bottom {
-    /* background:  #444b55; */
-    color: #8e8e8e;
-    width: 960px;
-    position: relative;
-    font-size: 12px;
-    box-sizing: border-box;
-    /* padding-left: 240px; */
-    margin: 0 auto;
-
-}
-section.footer .footer-bottom a {
-    text-decoration: none;
-    color: black;
-    color: #8e8e8e;
-}
-
-section.footer .footer-bottom .footer-menu {
-    padding-top: 24px;
-    /* background:  #444b55; */
-     
-}
-
-section.footer .footer-bottom .footer-menu li .intro-ft {
-    padding-left: 0;
-}
-
-section.footer .footer-bottom .footer-menu li a {
-    text-decoration: none;
-    float: left;
-    padding: 0 10px;
-    font-size: 12px; 
-    border-right: 1px solid rgba(196, 192, 192, 0.5);
-}
-/* section.footer .footer-bottom .footer-menu:nth-child(1) {
-    padding-left: 0;
-} */
-section.footer .footer-bottom address p {
-    line-height: 20px;
-}
-
-section.footer .footer-bottom address {
-    position: relative;
-}
-
-section.footer .footer-bottom a img {
-    background: white;
-    border-radius: 10px;
-    padding: 5px 5px;
-    position: absolute;
-    left: 775px;
-    top: 35px;
-}
-    
 
 
-section.footer .footer-bottom address p strong a {
-    font-weight: 700;
-}
-
-section.footer .footer-bottom .footer-menu li .cast-ft {
-    /* border: 1px solid red; */
-    color: rgb(213, 206, 206);
-    font-weight: 500;
-}
-section.footer .footer-bottom .footer-menu li .site-ft {
-    color: rgb(213, 206, 206);
-    font-weight: 500;
-}
-
-section.footer .footer-bottom address p a span {
-    color: rgb(212, 200, 200);
-    font-weight: 600;
-}

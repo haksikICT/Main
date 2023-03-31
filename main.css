@@ -104,18 +104,21 @@ section.new ul {
 
 section.new ul li .newtext {
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 14px;
+    letter-spacing: -1px;
     width: 235px;
     height: 86px;
     margin: 0 10 20;
+    font-weight: 500;
 
     text-align: center;
     padding: 20px 0px;
 }
 
 section.new ul li .medium {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.5;
+    
 }
 section.new .newcon ul li{
     overflow: hidden;
@@ -132,7 +135,7 @@ section.new .newcon ul li img:hover{
 /*promotion*/
 section.pro {
     width: 100%;
-    height: 407px;
+    height: 500px;
     background: #f7f7f7;
     padding: 60px 0px;
 }
@@ -471,6 +474,7 @@ section.info .infocon ul li .detail2 .timeline div::before {
     border: 1px solid #929292;
     border-radius: 50%;
     color: #929292;
+    background-color: #929292;
 
     position: absolute;
     top: 22%;
@@ -582,6 +586,7 @@ section.info .infocon ul li .tick div {
     line-height: 81px;
     border-bottom: 0.1px solid #e6e6e6;
     border-right: 0.05px solid #e6e6e6;
+    font-size: 15px;
 
 
 }
@@ -752,16 +757,17 @@ section.edit .editcon .btnedit {
 .scroll {
     width: 100%;
     position: relative;
-    height: 3000px;   
+    height: 2800px;   
    
 }
+
 
  .sidecon{  
     position: sticky;
     top: 0;
-    left: 0;
     padding-top: 100px;
-    margin-left: 1800px;
+    padding-left: 75%;
+
     
     z-index: 999;
     
@@ -774,6 +780,45 @@ section.edit .editcon .btnedit {
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media(max-width:2030px){
+
+    .sidecon{  
+        padding-left: 80%;
+          
+    }
+}
+@media(max-width:1700px){
+
+    .sidecon{  
+        padding-left: 85%;
+          
+    }
+}
+@media(max-width:1500px){
+    .sidecon{  
+        padding-left: 1250px;
+          
+    }
+    
+}
+
+
+@media(max-width:1500px){
+    section.me .me1 {
+        height: 400px;
+    }
+    section.me ul li img {
+        width: 1500px;
+        height: 400px;
+    }
+    section.me .me1 .met{
+        width: 700px;
+        
+    
+    }
+}
+
 
 
 

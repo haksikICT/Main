@@ -194,6 +194,7 @@ section.speedway .speedway-wrap .main-contents .inner-contents a {
 
 section.speedway .speedway-wrap .main-contents .inner-contents a img {
     padding-left: 82px;
+    padding-bottom: 3px;
 }
 
 section.speedway .speedway-wrap .main-contents .inner-contents a:nth-child(1) {

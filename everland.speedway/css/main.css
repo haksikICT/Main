@@ -11,7 +11,7 @@
 
 
 section.speedway {
-    width: 1440px;
+    width: 100%;
     margin: 0 auto 0;
     background: url(../img/background.jpg) no-repeat center 1px;
     background-color: rgb(229, 229, 229);
@@ -388,6 +388,7 @@ section.footer .footer-top .tempbox a {
     text-decoration: none;
     font-size: 12px;
 }
+
 /* end footer-top */
 
 /* footer-bottom style */
@@ -403,6 +404,7 @@ section.footer .footer-bottom {
     margin: 0 auto;
 
 }
+
 section.footer .footer-bottom a {
     text-decoration: none;
     color: black;
@@ -412,7 +414,7 @@ section.footer .footer-bottom a {
 section.footer .footer-bottom .footer-menu {
     padding-top: 24px;
     /* background:  #444b55; */
-     
+
 }
 
 section.footer .footer-bottom .footer-menu li .intro-ft {
@@ -423,9 +425,10 @@ section.footer .footer-bottom .footer-menu li a {
     text-decoration: none;
     float: left;
     padding: 0 10px;
-    font-size: 12px; 
+    font-size: 12px;
     border-right: 1px solid rgba(196, 192, 192, 0.5);
 }
+
 /* section.footer .footer-bottom .footer-menu:nth-child(1) {
     padding-left: 0;
 } */
@@ -445,7 +448,7 @@ section.footer .footer-bottom a img {
     left: 775px;
     top: 35px;
 }
-    
+
 
 
 section.footer .footer-bottom address p strong a {
@@ -457,6 +460,7 @@ section.footer .footer-bottom .footer-menu li .cast-ft {
     color: rgb(213, 206, 206);
     font-weight: 500;
 }
+
 section.footer .footer-bottom .footer-menu li .site-ft {
     color: rgb(213, 206, 206);
     font-weight: 500;
@@ -467,6 +471,21 @@ section.footer .footer-bottom address p a span {
     font-weight: 600;
 }
 
+/* 태블릿 해상도 1024px 이하 (아이패드 프로) */
+@media screen and (max-width: 1024px) {
+    section.speedway {
+        width: 1024px;
+    }
 
+}
 
+/* 태블릿 해상도 768px 이하 (아이패드 미니) */
+@media screen and (max-width: 768px) {
+    header .supercon {
+        width: 1024px;
+    }
 
+    section.footer {
+        width: 1024px;
+    }
+}

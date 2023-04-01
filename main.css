@@ -447,7 +447,7 @@ section.info .infocon ul li .detail2 .daytime .time {
     letter-spacing: -1px;
     font-weight: 800;
     line-height: 50px;
-    margin: 
+
 
 }
 
@@ -832,6 +832,13 @@ section.edit .editcon .btnedit strong {
 }
 
 
+/*  지혁's 반응형   */
+/* 태블릿 해상도 1024px 이하 (아이패드 프로) */
+@media screen and (max-width: 1024px) {
+    body {
+        width: 1500px;
+    }
+}
 
 
 

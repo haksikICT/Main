@@ -320,7 +320,7 @@ header .supercon .bottom .hidden .hiddencon ul li div{
 section.footer {
     width: 100%;
     height: 180px;
-    background: url(../img/footer_background.gif) repeat-x;
+    background: url(./img/footer_background.gif) repeat-x;
 }
 
 section.footer .footer-top {
